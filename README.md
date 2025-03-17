@@ -1,11 +1,12 @@
-# Datapack skeleton
+# No sand and gravel disks
 
-Lorem ipsum dolor sit amet
+This datapack changes the world generation so that gravel and sand disks are no longer generated.
 
 ---
 
 # Features
-- Feature 1
+- Remove sand and gravel disks
+- Increase size of clay disks underwater
 
 ---
 
