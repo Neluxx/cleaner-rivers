@@ -3,7 +3,7 @@
         "description": "Cleaner Rivers – Remove Sand & Gravel Disks",
         "pack_format": 61,
         "supported_formats": {
-            "min_inclusive": 48,
+            "min_inclusive": 41,
             "max_inclusive": 61
         }
     }
