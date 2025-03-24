@@ -1,6 +1,10 @@
 {
     "pack": {
+        "description": "Cleaner Rivers – Remove Sand & Gravel Disks",
         "pack_format": 61,
-        "description": "No sand and gravel disks"
+        "supported_formats": {
+            "min_inclusive": 48,
+            "max_inclusive": 61
+        }
     }
 }
