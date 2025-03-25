@@ -1,32 +1,21 @@
-# No sand and gravel disks
+# Cleaner rivers
 
-This datapack changes the world generation so that gravel and sand disks are no longer generated.
+Cleaner Rivers is a Minecraft datapack that improves the visual appearance of rivers by disabling the generation of sand and gravel disks in river biomes.
+These patches often disrupt the natural look of riverbeds, making them messy and inconsistent.
+Clay disks are still present and slightly enlarged to preserve resource variety while maintaining a cleaner, more natural flow.
 
----
+## Features
+- Removes sand and gravel disks from river generation
+- Clay disks remain and have been slightly enlarged
+- Only affects newly generated chunks
 
-# Features
-- Remove sand and gravel disks
-- Increase size of clay disks underwater
+## Installation
 
----
+- Download the [datapack](https://github.com/Neluxx/cleaner-rivers/releases/latest)
+- Move the datapack inside ``.minecraft/saves/<world>/datapacks`` ([How to find .minecraft?](https://minecraft.wiki/w/.minecraft#Locating))
+- Reload the world or run ``/reload``
 
-# Installation
-- Download the datapack and resourcepack ZIP file.
-- Move the datapack into your world’s datapacks folder: ``.minecraft/saves/YOUR_WORLD/datapacks/``
-- Move the resourcepack into your resourcepacks folder and enable it: ``.minecraft/resourcepacks/``
-- Start your world & type: ``/reload``
-- (Optional) Verify it’s active: ``/datapack list``
+## Uninstalling
 
----
-
-# Uninstalling
-
-To remove the datapack:
-
-- Delete the datapack inside your datapacks directory: ``.minecraft/saves/YOUR_WORLD/datapacks/``
-- Reload the world: ``/reload``
-
-To remove the resourcepack:
-
-- Disable the resourcepack.
-- Delete the resourcepack inside your resourcepacks directory: ``.minecraft/resourcepacks/``
+- Delete the datapack from ``.minecraft/saves/<world>/datapacks``
+- Note: Future river generation will include sand and gravel disks again
