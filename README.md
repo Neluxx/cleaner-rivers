@@ -18,4 +18,5 @@ Clay disks are still present and slightly enlarged to preserve resource variety 
 ## Uninstalling
 
 - Delete the datapack from ``.minecraft/saves/<world>/datapacks``
-- Note: Future river generation will include sand and gravel disks again
+
+> **_NOTE:_** Future river generation will include sand and gravel disks again
