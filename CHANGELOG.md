@@ -14,3 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 ### Fixed
+
+## [v1.0.0](https://github.com/Neluxx/cleaner-rivers/releases/tag/v1.0.0) - 2025-03-26
+
+### Changed
+- Increase size of clay disks
+- Set size of sand and gravel disks to zero
+- Update to datapack format 71 to support version 1.21.5
