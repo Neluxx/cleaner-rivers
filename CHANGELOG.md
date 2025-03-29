@@ -15,6 +15,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [v1.1.0](https://github.com/Neluxx/cleaner-rivers/releases/tag/v1.1.0) - 2025-03-29
+
+### Changed
+- Set clay disks to their original size
+
+### Removed
+- Remove disk clay configured feature file
+
 ## [v1.0.0](https://github.com/Neluxx/cleaner-rivers/releases/tag/v1.0.0) - 2025-03-26
 
 ### Changed
