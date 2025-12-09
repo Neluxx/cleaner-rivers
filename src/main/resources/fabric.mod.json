@@ -3,9 +3,9 @@
 	"id": "cleaner-rivers",
 	"version": "${version}",
 	"name": "Cleaner Rivers",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A minecraft fabric mod that removes sand and gravel disks from rivers to improve visual clarity.",
 	"authors": [
-		"Me!"
+		"Neluxx"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
