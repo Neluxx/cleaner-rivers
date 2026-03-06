@@ -1,0 +1,7 @@
+{
+    "name": "Cleaner Rivers",
+    "output": "build",
+    "data_pack": {
+        "load": ["datapack"]
+    }
+}
