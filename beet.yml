@@ -11,7 +11,7 @@ meta:
 
 data_pack:
   description: {"text":"Cleaner Rivers\n1.19 - 1.21.11", "color":"gray"}
-  pack_format: 94
+  pack_format: 10
   min_format: 10
   max_format: 94
   supported_formats:
