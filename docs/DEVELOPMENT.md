@@ -67,8 +67,8 @@ beet cache --clear
 .
 ├── docs/
 ├── src/
-│   ├── datapack/          # Datapack source files
-│   │   └── v1_20_5/       # Overlay for overwrites
+│   └── datapack/          # Datapack source files
+│       └── v1_20_5/       # Overlay for overwrites
 ├── build/                 # Build output (git-ignored)
 ├── beet.yml               # Beet project configuration
 ├── pyproject.toml         # Python project & dependency config
