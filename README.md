@@ -21,3 +21,6 @@ Clay disks are still present to preserve resource variety while maintaining a cl
 
 If you enjoy this datapack and find it useful, please consider giving the repository a star and following me on GitHub.  
 This helps the project gain visibility and motivates further development and maintenance.
+
+## Contributing
+Contributions are welcome! Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for commit conventions and guidelines.
