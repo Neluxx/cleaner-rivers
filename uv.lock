@@ -32,7 +32,7 @@ wheels = [
 ]
 
 [[package]]
-name = "beet-datapack-template"
+name = "cleaner-rivers"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
