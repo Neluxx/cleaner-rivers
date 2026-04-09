@@ -23,8 +23,8 @@ def _patch(pack: DataPack, vanilla: Vanilla, version: str, feature: str):
     source = vanilla.releases[version].mount("data").data[WorldgenConfiguredFeature][feature]
     patched = source.copy()
     patched.data["config"]["half_height"] = 0
-    patched.data["config"]["radius"]["min_inclusive"] = 0
-    patched.data["config"]["radius"]["max_inclusive"] = 0
+    patched.data["config"]["radius"]["value"]["min_inclusive"] = 0
+    patched.data["config"]["radius"]["value"]["max_inclusive"] = 0
     pack[WorldgenConfiguredFeature][feature] = patched
 
 
@@ -32,6 +32,6 @@ def _patch_overlay(pack: DataPack, vanilla: Vanilla, version: str, feature: str)
     source = vanilla.releases[version].mount("data").data[WorldgenConfiguredFeature][feature]
     patched = source.copy()
     patched.data["config"]["half_height"] = 0
-    patched.data["config"]["radius"]["value"]["min_inclusive"] = 0
-    patched.data["config"]["radius"]["value"]["max_inclusive"] = 0
+    patched.data["config"]["radius"]["min_inclusive"] = 0
+    patched.data["config"]["radius"]["max_inclusive"] = 0
     pack[WorldgenConfiguredFeature][feature] = patched
