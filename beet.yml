@@ -2,17 +2,12 @@ name: Cleaner Rivers
 version: 0.1.0
 
 pipeline:
-  - beet.contrib.render
-  - src.plugins.cleaner_rivers
+  - src.plugins.disks
 
 meta:
-  render:
-    data_pack:
-      - "**"
-  cleaner_rivers:
-    base_version: "1.19"
-    overlay_versions:
-      v1_20_5: "1.20.5"
+  base_version: "1.19"
+  overlay_versions:
+    v1_20_5: "1.20.5"
 
 data_pack:
   load: src/datapack
