@@ -7,25 +7,12 @@ pipeline:
   - src.plugins.disk_gravel
 
 meta:
-  base_version: "1.19"
-  overlay_versions:
-    v1_20_5: "1.20.5"
+  base_version: "1.21.9"
 
 data_pack:
   load: src/datapack
-  description: {"text":"Cleaner Rivers\n1.19 - 26.1", "color":"gray"}
-  pack_format: 10
-  min_format: 10
+  description: {"text":"Cleaner Rivers\n1.21.9 - 26.1", "color":"gray"}
+  min_format: 82
   max_format: 101
-  supported_formats:
-    min_inclusive: 10
-    max_inclusive: 101
-  overlays:
-    - directory: v1_20_5
-      min_format: 41
-      max_format: 101
-      formats:
-        min_inclusive: 41
-        max_inclusive: 101
 
 output: build
