@@ -1,0 +1,29 @@
+name: Cleaner Rivers Legacy
+version: 0.3.0
+
+pipeline:
+  - src.plugins.disk_clay
+  - src.plugins.disk_sand
+  - src.plugins.disk_gravel
+
+meta:
+  base_version: "1.19"
+  overlay_versions:
+    v1_20_5: "1.20.5"
+
+data_pack:
+  load: src/datapack
+  description: {"text":"Cleaner Rivers\n1.19 - 1.21.8", "color":"gray"}
+  pack_format: 10
+  supported_formats:
+    min_inclusive: 10
+    max_inclusive: 81
+  overlays:
+    - directory: v1_20_5
+      min_format: 41
+      max_format: 81
+      formats:
+        min_inclusive: 41
+        max_inclusive: 81
+
+output: build
