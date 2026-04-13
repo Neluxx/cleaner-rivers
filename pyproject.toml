@@ -1,6 +1,6 @@
 [project]
 name = "cleaner-rivers"
-version = "0.3.0"
+version = "0.3.1"
 description = "A datapack that removes sand and gravel disks from rivers."
 readme = "README.md"
 requires-python = ">=3.14"
