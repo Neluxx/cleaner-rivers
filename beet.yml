@@ -8,11 +8,17 @@ pipeline:
 
 meta:
   base_version: "1.21.9"
+  overlay_versions:
+    v26_1: "26.1"
 
 data_pack:
   load: src/datapack
   description: {"text":"Cleaner Rivers\n1.21.9 - 26.1", "color":"gray"}
   min_format: 82
   max_format: 101
+  overlays:
+    - directory: v26_1
+      min_format: 101
+      max_format: 101
 
 output: build
