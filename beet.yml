@@ -13,12 +13,12 @@ meta:
 
 data_pack:
   load: src/datapack
-  description: {"text":"Cleaner Rivers\n1.21.9 - 26.1", "color":"gray"}
+  description: {"text":"Cleaner Rivers\n1.21.9 - 26.2", "color":"gray"}
   min_format: 82
-  max_format: 101
+  max_format: 107
   overlays:
     - directory: v26_1
       min_format: 101
-      max_format: 101
+      max_format: 107
 
 output: build
