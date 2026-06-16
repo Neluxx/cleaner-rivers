@@ -1,5 +1,5 @@
 name: Cleaner Rivers
-version: 1.0.0
+version: 1.1.0
 
 pipeline:
   - src.plugins.disk_clay
