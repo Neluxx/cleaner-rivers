@@ -5,6 +5,6 @@ description = "A datapack that removes sand and gravel disks from rivers."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "beet>=0.119.0",
+    "beet>=0.121.2",
     "beet-datapack-utils>=0.1.0",
 ]
