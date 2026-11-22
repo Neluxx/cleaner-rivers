@@ -1,10 +1,10 @@
 from beet import Context
 
-from beet_datapack_utils import FEATURE, Targets, provider, set_range, worldgen_config
+from beet_datapack_utils import FEATURE, set_range, targets, worldgen_config
 
 
 def beet_default(ctx: Context):
-    for target in ctx.inject(Targets):
+    for target in targets(ctx):
         with target.patch(FEATURE, "minecraft:disk_gravel") as disk:
             config = worldgen_config(disk)
 
@@ -12,4 +12,4 @@ def beet_default(ctx: Context):
             config["half_height"] = 0  # defaults to 1
 
             # The radius of this disk. Value between 0 and 8 (inclusive).
-            set_range(provider(config, "radius"), 0, 0)  # defaults to 2..3
+            set_range(config, "radius", 0, 0)  # defaults to 2..3
