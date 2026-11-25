@@ -2,9 +2,7 @@ name: Cleaner Rivers Legacy
 version: 1.2.0
 
 pipeline:
-  - src.plugins.disk_clay
-  - src.plugins.disk_sand
-  - src.plugins.disk_gravel
+  - src.plugins.disks
 
 meta:
   base_version: "1.19"
