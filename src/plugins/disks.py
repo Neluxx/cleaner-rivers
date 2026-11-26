@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 from beet import Context
 
-from beet_datapack_utils import FEATURE, get_config, set_range, versioned_packs
+from beet_datapack_utils import FEATURE, get_config, set_uniform, versioned_packs
 
 
 @dataclass(frozen=True)
@@ -28,4 +28,4 @@ def beet_default(ctx: Context):
             with pack.edit(FEATURE, name) as feature:
                 config = get_config(feature)
                 config["half_height"] = disk.half_height
-                set_range(config, "radius", disk.min_radius, disk.max_radius)
+                set_uniform(config, "radius", disk.min_radius, disk.max_radius)
