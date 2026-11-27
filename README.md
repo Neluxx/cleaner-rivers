@@ -1,14 +1,15 @@
 # Cleaner rivers
 
-Cleaner Rivers is a Minecraft datapack that improves the visual appearance of rivers  
-by disabling the generation of sand and gravel disks in river biomes.
+Cleaner Rivers is a Minecraft datapack that improves the visual appearance of rivers by disabling the generation of
+underwater sand and gravel disks.
 
-These patches often disrupt the natural look of riverbeds, making them messy and inconsistent.  
-Clay disks are still present to preserve resource variety while maintaining a cleaner, more natural flow.
+These patches often disrupt the natural look of riverbeds, making them messy and inconsistent. Clay disks are still
+present and slightly larger to preserve resource variety while maintaining a cleaner, more natural flow.
 
 ## Features
-- Removes sand and gravel disks from river generation
-- Clay disks remain and have not been altered
+
+- Removes underwater sand and gravel disks in all biomes
+- Clay disks remain and are slightly larger
 - Only affects newly generated chunks
 
 ## Installation
@@ -19,8 +20,9 @@ Clay disks are still present to preserve resource variety while maintaining a cl
 
 ## Support the Project
 
-If you enjoy this datapack and find it useful, please consider giving the repository a star and following me on GitHub.  
+If you enjoy this datapack, please consider giving the repository a star and following me on GitHub.  
 This helps the project gain visibility and motivates further development and maintenance.
 
 ## Contributing
+
 Contributions are welcome! Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for commit conventions and guidelines.
